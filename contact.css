@@ -1,0 +1,129 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2{
+  font-family: "Berlin Sans FB";
+  font-size: 4rem;
+  line-height: 1.8;
+}
+p{
+  color: #fff;
+  font-size: 1.3rem;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* Section */
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+/*Navigation Bar*/
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding: 0 13px;
+}
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+/* contact */
+.contact-image{
+  width: 80%;
+  height: 100%;
+  /* transform: rotate(20deg); */
+}
+#contact{
+  background-color: #383E56;
+  color: #fff;
+}
+
+/* contact2 */
+#contact2{
+  background-color: #fff;
+  color: #000;
+  padding-top: 5%;
+}
+
+/* contact3 */
+#contact3{
+  background-color: #fff;
+  color: #000;
+  padding-top: 5%;
+}
+.feature-align{
+  text-align: left;
+  padding-left: 3%;
+}
+.paragraph{
+  color: #082032;
+  font-size: 1.2rem;
+  text-align: left;
+  padding-right: 20%;
+}
+.action{
+  text-align: left;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  padding-left: 20%;
+}
+.img{
+  margin-top: 10%;
+}
+.social-icon {
+  padding: 0 10px;
+  color: black;
+}
+.p-footer{
+  color: #8f8f8f;
+  padding-top: 1.9%;
+  font-size: 10px;
+}
+/* button */
+#button{
+  padding-right: 300px;
+  padding-left: 200px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+/* Media Queary*/
+@media(max-width: 1028px) {
+  #contact {
+    text-align: center;
+  }
+  .img{
+    position: static;
+    text-align: center;
+  }
+  .contact-image {
+    /* position: static; */
+    width: 500px;
+    height: 400px;
+  }
+  /* .action{
+    text-align: center;
+  } */
+}
