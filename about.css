@@ -2,51 +2,63 @@ body {
   font-family: "Montserrat";
   text-align: center;
 }
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
 }
-h2{
+
+h2 {
   font-family: "Berlin Sans FB";
   font-size: 3rem;
   line-height: 1.5;
 }
-p{
+
+p {
   color: #000;
   font-size: 1.5rem;
 }
-ul{
-  list-style-type:none;
+
+ul {
+  list-style-type: none;
 }
-.container-fluid{
+
+img {
+  border-radius: 20%;
+}
+
+.container-fluid {
   padding: 3% 15%;
 }
 
 /* Section */
-.coloured-section{
-  background-color: #055052;
+.coloured-section {
+  /* background-color: #055052; */
+  background-image: url(aboutnav.jpg);
   color: #fff;
 }
-.white-section{
+
+.white-section {
   background-color: #fff;
 }
 
 /*Navigation Bar*/
-
-.navbar{
+.navbar {
   padding-bottom: 4.5rem;
-
 }
-.nav-item{
+
+.nav-item {
   padding: 0 13px;
 }
+
 .nav-link {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   font-weight: lighter;
 }
+
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
@@ -54,72 +66,88 @@ ul{
 }
 
 /* about */
-.about-image{
+.about-image {
   width: 80%;
   height: 100%;
   /* transform: rotate(20deg); */
 }
-#about{
+
+#about {
   color: #fff;
 }
 
+/* .cmn{
+  background-color: ##F7F6F2;
+} */
 /* about2 */
-.about2{
-  background-color: #fff;
+.about2 {
+  background-color: #F7F6F2;
   color: #000;
   padding-top: 5%;
 }
-.center-paragraph{
+
+.center-paragraph {
   font-size: 1.2rem;
   color: #000;
-
 }
-.about-align{
+
+.about-align {
   text-align: left;
   padding-left: 3%;
 }
-.paragraph{
+
+.paragraph {
   color: #082032;
   font-size: 1.2rem;
   text-align: left;
   padding-right: 20%;
 }
-.align{
+
+.align {
   position: relative;
   right: 50%;
 }
+
 .social-icon {
   padding: 0 10px;
   color: black;
 }
-.p-footer{
+
+.p-footer {
   color: #8f8f8f;
   padding-top: 1.9%;
   font-size: 10px;
 }
+
 /* Media Queary*/
 @media(max-width: 1028px) {
   #about {
     text-align: center;
   }
+
   #about2 {
     text-align: center;
   }
-  .about2{
+
+  .about2 {
     text-align: center;
   }
-  .center-paragraph{
+
+  .center-paragraph {
     text-align: center;
   }
-  .heading{
+
+  .heading {
     text-align: center;
   }
-  .all-img{
+
+  .all-img {
     width: 400px;
     height: 300px;
     text-align: center;
   }
-  .navbar{
+
+  .navbar {
     flex-basis: 100%;
   }
 }
