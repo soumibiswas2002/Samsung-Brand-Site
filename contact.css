@@ -2,47 +2,59 @@ body {
   font-family: "Montserrat";
   text-align: center;
 }
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
+  color: #fff;
+  border: 1px solid white;
+  margin: 0px;
 }
-h2{
+
+h2 {
   font-family: "Berlin Sans FB";
   font-size: 4rem;
   line-height: 1.8;
 }
-p{
+
+p {
   color: #fff;
   font-size: 1.3rem;
 }
-.container-fluid{
+
+.container-fluid {
   padding: 3% 15%;
 }
 
 /* Section */
-.coloured-section{
-  background-color: #ff4c68;
+.coloured-section {
+  /* background-color: #ff4c68; */
   color: #fff;
 }
-.white-section{
+
+.white-section {
   background-color: #fff;
 }
 
 /*Navigation Bar*/
-
-.navbar{
+.navbar {
   padding-bottom: 4.5rem;
 }
-.nav-item{
+
+.nav-item {
   padding: 0 13px;
+  color: #fff;
+  font-weight: 100;
 }
+
 .nav-link {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   font-weight: lighter;
 }
+
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
@@ -50,59 +62,69 @@ p{
 }
 
 /* contact */
-.contact-image{
+.contact-image {
   width: 80%;
   height: 100%;
+  border-radius: 5%;
   /* transform: rotate(20deg); */
 }
-#contact{
-  background-color: #383E56;
+
+#contact {
+  /* background-color: #383E56; */
   color: #fff;
+  background-image: url(contactback1.jpg);
 }
 
 /* contact2 */
-#contact2{
+#contact2 {
   background-color: #fff;
   color: #000;
   padding-top: 5%;
 }
 
 /* contact3 */
-#contact3{
-  background-color: #fff;
-  color: #000;
+#contact3 {
+  background-image: url(contactback2.jpg);
+  color: #fff;
   padding-top: 5%;
 }
-.feature-align{
+
+.feature-align {
   text-align: left;
   padding-left: 3%;
 }
-.paragraph{
+
+.paragraph {
   color: #082032;
   font-size: 1.2rem;
   text-align: left;
   padding-right: 20%;
 }
-.action{
+
+.action {
   text-align: left;
   font-family: "Ubuntu";
   font-weight: bold;
   padding-left: 20%;
 }
-.img{
+
+.img {
   margin-top: 10%;
 }
+
 .social-icon {
   padding: 0 10px;
   color: black;
 }
-.p-footer{
+
+.p-footer {
   color: #8f8f8f;
   padding-top: 1.9%;
   font-size: 10px;
 }
+
 /* button */
-#button{
+#button {
   padding-right: 300px;
   padding-left: 200px;
   padding-top: 70px;
@@ -114,15 +136,18 @@ p{
   #contact {
     text-align: center;
   }
-  .img{
+
+  .img {
     position: static;
     text-align: center;
   }
+
   .contact-image {
     /* position: static; */
     width: 500px;
     height: 400px;
   }
+
   /* .action{
     text-align: center;
   } */
