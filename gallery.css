@@ -2,42 +2,48 @@ body {
   font-family: "Montserrat";
   text-align: center;
 }
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
 }
-p{
+
+p {
   color: #F3F0D7;
   font-size: 1.5rem;
 }
-.container-fluid{
+
+.container-fluid {
   padding: 3% 15%;
 }
 
 /* Section */
-.coloured-section{
-  background-color: #ff4c68;
+.coloured-section {
+  /* background-color: #ff4c68; */
   color: #fff;
 }
-.white-section{
+
+.white-section {
   background-color: #fff;
 }
 
 /*Navigation Bar*/
-
-.navbar{
+.navbar {
   padding-bottom: 4.5rem;
 }
-.nav-item{
+
+.nav-item {
   padding: 0 13px;
 }
+
 .nav-link {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   font-weight: lighter;
 }
+
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
@@ -45,40 +51,54 @@ p{
 }
 
 /* gallery */
-.gallery-image{
+.gallery-image {
   width: 80%;
   height: 100%;
   /* transform: rotate(20deg); */
 }
-#gallery{
-  background-color: #420516;
+
+#gallery {
+  /* background-color: #420516; */
+  background-image: url(galleryback.webp);
   color: #fff;
 }
 
 /* gallery2 */
-#gallery2{
+#gallery2 {
   background-color: #fff;
   color: #000;
   padding-top: 5%;
 }
-.feature-align{
+
+.feature-align {
   text-align: left;
   padding-left: 3%;
 }
-.paragraph{
+
+.paragraph {
   color: #082032;
   font-size: 1.2rem;
   text-align: left;
   padding-right: 20%;
 }
+
 .social-icon {
   padding: 0 10px;
   color: black;
 }
-.p-footer{
+
+.p-footer {
   color: #8f8f8f;
   padding-top: 1.9%;
-    font-size: 10px;
+  font-size: 10px;
+}
+
+.last {
+  padding: 4% 2% 2% 2%;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /* Media Queary*/
@@ -86,22 +106,29 @@ p{
   #gallery {
     text-align: center;
   }
+
   #gallery2 {
     text-align: center;
   }
+
   .gallery-image {
     position: static;
   }
-  .new{
+
+  .new {
     text-align: center;
   }
-  .last{
+
+  .last {
     text-align: center;
   }
-  /* .last{
+
+  .last {
     width: 200px;
     height: 200px;
+    border-radius: 10%;
+    padding-top: 3%;
     /* width: 30%;
-    margin: calc(10%/6);
-  } */
+    margin: calc(10%/6);*/
+  }
 }
